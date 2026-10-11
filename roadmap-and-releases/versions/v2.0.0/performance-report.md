@@ -16,7 +16,7 @@ No major performance degradation or bottlenecks were observed throughout the tes
 
 ## **Performance Improvements**
 
-In this release the core authentication engine has been migrated from Java to Go, for better long-term sustainability, performance and efficiency. Go, as a runtime, has been judged to be better suited to the kind of high-throughput, low-latency authentication workloads that a national identity backend needs to sustain. Improvements have been made in caching, connection management. Go configs have also been tuned to match varying possible auth response times.
+In this release the core authentication engine has been migrated from Java to Go, <!-- for better long-term sustainability , performance and efficiency -->. Go, as a runtime, has been judged to be better suited to the kind of high-throughput, low-latency authentication workloads that a national identity backend needs to sustain. Improvements have been made in caching, connection management. Go configs have also been tuned to match varying possible auth response times.
 
 ## **Test Environment**
 
